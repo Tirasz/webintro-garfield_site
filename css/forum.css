@@ -1,0 +1,203 @@
+#forum_container{
+width: inherit;
+height: inherit;
+position: relative;
+top:0;
+left:0;
+}
+
+.thread{
+	height:10vh;
+	min-height:50px;
+	margin-left: 20px;
+	margin-bottom:10px;
+	display: block;
+	border-bottom:1px solid black;
+}
+.thread a{
+	height: inherit;
+	min-height: 50px;
+	display:block;
+	text-decoration: none;
+}
+.thread a:hover{
+	text-decoration: underline;
+	text-decoration-color: orange;
+}
+
+.thread p[class="forum_user"]{
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	top:-30px;
+
+}
+.thread p[class="forum_user"]:before{
+	content:"Készítette:";
+}
+img[src*="forum"]{
+	height: inherit;
+	float: left;
+	min-height:50px;
+	margin-right:5px;
+	max-height: 100px;
+}
+
+img[src*="forum_new"]{
+	border-radius: 25%;
+	border:1px solid black;
+}
+
+p{
+	color:black;
+	text-shadow: 2px 2px #ffc04a;
+	margin:0;
+}
+
+.title{
+	font-size:1.8em;
+}
+
+.summ{
+	font-size:0.7em;
+}
+
+
+
+/* */
+.thread.new{
+	margin-left:0;
+	border-bottom:1px dashed black;
+}
+
+#textarea_wrap{
+	text-align:center;
+}
+textarea{
+	resize:none;
+	display: inline-block;
+	width:60%;
+	background-color: #ADF6C9;
+	text-shadow: white 2px 2px;
+	color:#ad4a15;
+}
+
+
+.new_thread{
+	text-align: center;
+}
+.new_thread form label:not([for="clean"]):not([for="thread_pic"]):after{
+	content:"\A";
+	display: block;
+}
+.new_thread form input:not([type="file"]){
+	background-color: #ADF6C9;
+	text-shadow: white 2px 2px;
+	color:#ad4a15;
+}
+
+.new_thread button[type="submit"]{
+	background-color:  #ADF6C9;
+	height:25px;
+	transform: rotate(-2.6deg);
+}
+/* */
+
+
+
+
+/* */
+
+.post_content{
+	border:2px solid orange;
+	border-radius: 10px;
+	margin-left: 20px;
+	text-shadow: white 2px 2px;
+	background-color: #fafaa2;
+	transform: rotate(-1.6deg);
+	min-height:180px;
+	padding-bottom:3px;
+}
+
+#post_picture img{
+max-height: 180px;
+float: left;
+margin:5px;
+}
+
+
+
+
+
+
+.comments{
+	margin-top: 30px;
+	border:2px solid #fafaa2;
+	border-radius: 10px;
+	margin-left: 20px;
+	text-shadow: white 2px 2px;
+	background-color: orange;
+	transform: rotate(1.6deg);
+}
+
+.user_comment:before{
+	content:"Hozzászóló: \A";
+}
+.comment{
+	border-bottom:1px solid black;
+}
+.comment button[type="submit"]{
+	background-color:  #ADF6C9;
+	height:25px;
+	transform: rotate(-2.6deg);
+}
+
+
+#comment_content{
+	height:auto;
+}
+
+
+.new_thread #textarea_wrap textarea{
+	height:40vh;
+}
+/* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px){
+	.thread{
+		margin-bottom: 70px;
+	}
+	.title{
+		font-size: 1.5em;
+	}
+
+}
+
+
+
+}

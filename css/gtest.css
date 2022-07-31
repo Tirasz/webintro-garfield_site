@@ -1,0 +1,131 @@
+
+
+
+
+
+#table_wrap{
+text-align: center;
+}
+table{
+	display: inline-block;
+}
+th{
+	border:2px solid black;
+	text-shadow: 2px 2px orange;
+	color:blue;
+}
+caption{
+	border:2px dashed black;
+	font-size: 2em;
+	color:grey;
+	text-shadow:2px 2px #ad4a15;
+}
+
+td{
+	height:20vh;
+	width: 40vh;
+	border:1px solid black;
+	border-collapse: collapse;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+td[headers="chaotic evil"]{
+	background-image: url("../Images/Garfield/chaotic_evil.jpg");
+	background-size:100% 120%;
+}
+td[headers="chaotic good"]{
+	background-image: url("../Images/Garfield/chaotic_good.jpg");
+	background-size: 100% 130%;
+}
+td[headers="chaotic neutral_hor"]{
+	background-image: url("../Images/Garfield/chaotic_neutral.jpg");
+	background-size: 100% 210%;
+	background-position: 0 -10px;
+}
+td[headers="lawful evil"]{
+	background-image: url("../Images/Garfield/lawful_evil.jpg");
+	background-size: 130%;
+	background-position: 50% 40%;
+}
+td[headers="lawful good"]{
+	background-image: url("../Images/Garfield/lawful_good.png");
+	background-size: 100% 130%;
+	background-position: 0 30%;
+}
+td[headers="lawful neutral_hor"]{
+	background-image: url("../Images/Garfield/lawful_neutral.gif");
+}
+td[headers="neutral evil"]{
+	background-image: url("../Images/Garfield/neutral_evil.jpg");
+}
+td[headers="neutral good"]{
+	background-image: url("../Images/Garfield/neutral_good.gif");
+	background-position: 0 30%;
+}
+td[headers="neutral neutral_hor"]{
+	background-image: url("../Images/Garfield/true_neutral.jpg");
+	
+}
+
+
+
+#garfield_test label:after{
+	content:" ";
+	display: block;
+}
+
+#garfield_test h2{
+	border-top:1px solid black;
+	margin-bottom: 0;
+	margin-top: 3px;
+}
+
+#garfield_test label[for="q9_2"]:after{
+	content: " ";
+	
+	display: block;
+	border-top:1px solid black;
+}
+#garfield_test button{
+	border-radius:0.40rem;
+	background-color: rgb(242,165,41);
+	color:white;
+	text-shadow:2px 2px #ad4a15;
+	margin-left:45%;
+	width:100px;
+	height:30px;
+}
+
+#results_wrap{
+text-align: center;
+}
+
+#results_wrap *{
+    display: inline-block;
+}
+
+
+
+/*
+	<tbody>
+		<tr>
+			<th id="good">Good</th> 
+			<td headers="lawful good"><img src="Images/Garfield/lawful_good.png"> </td> 
+			<td headers="neutral good"><img src="Images/Garfield/neutral_good.gif"></td> 
+			<td headers="chaotic good"><img src="Images/Garfield/chaotic_good.jpg"></td>
+		</tr>
+		<tr>
+			<th id="neutral_hor">Neutral</th> 
+			<td headers="lawful neutral_hor"><img src="Images/Garfield/lawful_neutral.gif"> </td> 
+			<td headers="neutral neutral_hor"><img src="Images/Garfield/true_neutral.jpg"></td> 
+			<td headers="chaotic neutral_hor"><img src="Images/Garfield/chaotic_neutral.jpg"></td>
+		</tr>
+		<tr>
+			<th id="evil">Evil</th> 
+			<td headers="lawful evil"> </td> 
+			<td headers="neutral evil"><img src="Images/Garfield/neutral_evil.jpg"></td> 
+			<td headers="chaotic evil"><img src="Images/Garfield/chaotic_evil.jpg"></td>
+		</tr>
+	</tbody>
+*/

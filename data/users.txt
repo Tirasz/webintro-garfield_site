@@ -1,0 +1,4 @@
+O:4:"User":4:{s:4:"name";s:6:"Tirasz";s:9:"alignment";s:12:"Neutral Evil";s:5:"email";s:24:"rozsa.balazs99@gmail.com";s:5:"passw";s:60:"$2y$10$7mzVg.1uaYTS5sjrx7UUQeJfuO0fLbDjgYPhI8a3g6TFeTkgHIvc.";}
+O:4:"User":4:{s:4:"name";s:7:"Forxyum";s:9:"alignment";s:12:"True Neutral";s:5:"email";s:18:"zacsi143@gmail.com";s:5:"passw";s:60:"$2y$10$4/oxP3/yqm3U/7FUHPEgs.CwjVyBXGtOPHRMUZJDxX7lzNIwrhVc6";}
+O:4:"User":4:{s:4:"name";s:4:"Bugs";s:9:"alignment";s:11:"Lawful Good";s:5:"email";s:10:"asd@asd.co";s:5:"passw";s:60:"$2y$10$yQvSBgQIbsKgTA5jLLOvjOxDq9t9fNIDTcT10Ov1MDgFTQfkAuQaC";}
+O:4:"User":4:{s:4:"name";s:9:"UtolsoTry";s:9:"alignment";s:12:"True Neutral";s:5:"email";s:16:"nameg@egyszer.hu";s:5:"passw";s:60:"$2y$10$gLegbHpexDF2o0.xZqCFA.dEwiDe5Pr.d3P/XCiWg.LRXNRjELZgG";}
